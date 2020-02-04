@@ -15,7 +15,7 @@ else
 
 
 var gradeA = true
-if gradeA
+if gradeA == true
 {
     print("Wow! My first A in a coding class!")
 }
@@ -23,3 +23,26 @@ else
 {
     print("Coding is like learning a different language.")
 }
+
+
+var one = 1
+var two = 2
+
+if one>two
+{
+    print("One is greater than Two")
+}
+else
+{
+    print("Two is bigger than one")
+}
+
+
+var Kenobi = "Hello There."
+var Grievous =  " General Kenobi!"
+if Grievous == " General Kenobi!"
+{
+    let scene = Kenobi + Grievous
+    print(scene + " You are a bold one!")
+}
+
